@@ -60,7 +60,7 @@
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
           
-          p.zivnotes = 'testing';
+          p.zivnotes = JSON.stringify(p);
 
           ret.resolve(p);
         });
