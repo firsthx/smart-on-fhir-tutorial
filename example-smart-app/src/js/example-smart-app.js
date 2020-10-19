@@ -88,7 +88,7 @@
       zivnotes: {value: ''},
     };
   }
-
+ 
   function getBloodPressureValue(BPObservations, typeOfPressure) {
     var formattedBPObservations = [];
     BPObservations.forEach(function(observation){
